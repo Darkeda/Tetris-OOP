@@ -23,4 +23,9 @@ public class FigureSquare extends Figures {
     public void moveFigureOnBoard(Figures[][] board, int position) {
 
     }
+
+    @Override
+    public void rotate() {
+        
+    }
 }
