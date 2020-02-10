@@ -26,4 +26,14 @@ public class FigureLine extends Figures {
     public void rotate() {
 
     }
+
+    @Override
+    public void dropDown(Figures[][] board) {
+
+    }
+
+    @Override
+    public void removeFigure(Figures[][] board) {
+
+    }
 }
