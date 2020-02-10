@@ -39,10 +39,7 @@ public class FigureL extends Figures {
                 board[currentPointRow + 3][currentPointCol+1] = this;
 
 
-//                board[currentPointCol][currentPointRow + 1] = this;
-//                board[currentPointCol][currentPointRow + 2] = this;
-//                board[currentPointCol][currentPointRow + 3] = this;
-//                board[currentPointCol + 1][currentPointRow + 3] = this;
+
 
                 this.currentPointRow+=1;
             } else {stillDroping=false;}
@@ -78,10 +75,7 @@ public class FigureL extends Figures {
                 removeFigure(board);
 
 
-//                board[startingPoint + position][currentPointRow] = this;
-//                board[startingPoint + position][currentPointRow+1] = this;
-//                board[startingPoint + position][currentPointRow+2] = this;
-//                board[startingPoint + 1 + position][currentPointRow+2] = this;
+
 
 
                 board[currentPointRow][startingPoint + position] = this;

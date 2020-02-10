@@ -32,10 +32,14 @@ public class FigureSquare extends Figures {
     @Override
     public void rotate() {
 
+
     }
 
     @Override
     public void removeFigure(Figures[][] board) {
+
+
+        
 
     }
 }
